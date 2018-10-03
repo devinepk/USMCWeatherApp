@@ -73,11 +73,11 @@ function KtoF(tempK) {
 function decideImage(tempK) {
   if (tempK > 294) {
     // HOT!
-    return "https://i.ytimg.com/vi/PR2XYraqyqs/maxresdefault.jpg";
+    return "https://jonsdeepthoughts.files.wordpress.com/2015/05/10.jpg";
   } else if (tempK < 285) {
     // COLD!
-    return "https://i.ytimg.com/vi/YH4Xr6GIp4U/maxresdefault.jpg";
+    return "https://i.ytimg.com/vi/CniJKgIrpX4/maxresdefault.jpg";
   }
 
-  return "https://i.ytimg.com/vi/LML6SoNE7xE/hqdefault.jpg";
+  return "https://parrisisland.files.wordpress.com/2011/08/di.jpg";
 }

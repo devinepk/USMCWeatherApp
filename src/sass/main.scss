@@ -15,9 +15,9 @@ $black:    #000;
 $body-bg:       $gray-200;
 $body-color:    $gray-900;
 
-$primary:       #f75f1c; // orange
-$secondary:     #000; //black
-$success:       #85e21f; // green
+$primary:       #000066; // blue
+$secondary:     #CC0000; // red
+$success:       #999999; // silver
 $info:          #881ee4; // purple
 $warning:       #ff9a00; //
 // $danger:        $red ; //
@@ -33,9 +33,15 @@ $warning:       #ff9a00; //
     text-transform: uppercase;
 }
 
-body {
-    max-width: 500px !important;
+h1 {
+  font-weight: bold;
+  
 }
+
+body {
+    max-width: 800px !important;
+}
+
 
 #output {
     display: none;
